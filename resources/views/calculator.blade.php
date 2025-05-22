@@ -13,7 +13,6 @@
     <div class="calculator">
         <h1>Lara Calculator</h1>
 
-
         <form action="{{ route('calculate') }}" method="POST">
             @csrf
             <input type="number" name="number1" value="{{ old('number1') }}" placeholder="Enter first number" required>
